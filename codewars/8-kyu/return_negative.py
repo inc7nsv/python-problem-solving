@@ -15,4 +15,5 @@ def make_negative(number: int) -> int:
     else:
         return number
 
-print(make_negative(0))
+if __name__ == "__main__":
+    print(make_negative(0))
